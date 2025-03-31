@@ -27,8 +27,7 @@
         // <&zip_temp_layer MOUSE_R_LAYER 0>;
 
     lowspeedmode {
-        layers =,
-        <SECONDARY_LAYER>;
+        layers =,<SECONDARY_LAYER>;
 
     input-processors =
         <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
