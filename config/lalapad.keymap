@@ -269,11 +269,11 @@
         SCROLL_R_LAYER {
             display-name = "scroll_r_layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kt LS(LG(RIGHT_ARROW))  &mkp MB5        &mkp MB3        &mkp MB4         &kt LA(ESCAPE)  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp HOME                 &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &kp PAGE_UP     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp END                  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN   &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans                   &trans          &trans          &trans           &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                         &trans          &trans           &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
