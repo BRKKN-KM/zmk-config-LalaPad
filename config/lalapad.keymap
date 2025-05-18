@@ -170,7 +170,7 @@
         mt2: mod_tap2 {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
             tapping-term-ms = <300>;
             quick-tap-ms = <0>;
             require-prior-idle-ms = <20>;
