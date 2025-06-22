@@ -23,9 +23,9 @@
     input-processors =
         <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
         <&zip_xy_scaler 3 2>,
-
-    	//<&zip_temp_layer MOUSE_R_LAYER 0>;
-	temp-layer = <MOUSE_R_LAYER 0>;
+        //<&zip_temp_layer MOUSE_R_LAYER 0>;,
+        temp-layer =,
+        <MOUSE_R_LAYER 0>;
 
     lowspeedmode {
         layers = <SECONDARY_LAYER>;
@@ -259,11 +259,11 @@
         MOUSE_R_LAYER {
             display-name = "mouse_r_layer";
             bindings = <
-&trans  &trans            &trans          &trans        &trans        &trans  &kt LA(ESCAPE)  &mkp MB4        &mkp MB3        &mkp MB5         &kt LG(LS(RIGHT_ARROW))  &trans
-&trans  &trans            &trans          &trans        &kp TAB       &trans  &kp PAGE_UP     &mkp MB1        &kp UP          &mkp MB2         &kp HOME                 &trans
-&trans  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &trans  &kp PAGE_DOWN   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                  &trans
-&trans  &trans            &trans          &trans        &trans        &trans  &trans          &kp DELETE      &trans          &trans           &trans                   &trans
-                          &trans          &trans        &trans        &trans  &trans          &trans          &trans          &trans
+&trans  &trans            &trans          &trans        &trans     &trans  &kt LA(ESCAPE)  &mkp MB4        &mkp MB3        &mkp MB5         &kt LG(LS(RIGHT_ARROW))  &trans
+&trans  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp TAB    &trans  &kp PAGE_UP     &mkp MB1        &kp UP          &mkp MB2         &kp HOME                 &trans
+&trans  &kp LC(Z)         &kp LC(X)       &kp LC(C)     &kp LC(V)  &trans  &kp PAGE_DOWN   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                  &trans
+&trans  &trans            &trans          &trans        &trans     &trans  &trans          &kp DELETE      &trans          &trans           &trans                   &trans
+                          &trans          &trans        &trans     &trans  &trans          &trans          &trans          &trans
             >;
         };
 
