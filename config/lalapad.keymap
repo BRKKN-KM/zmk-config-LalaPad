@@ -173,9 +173,9 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <370>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <150>;
-            require-prior-idle-ms = <0>;
+            require-prior-idle-ms = <10>;
             bindings = <&kp>, <&kp>;
         };
     };
